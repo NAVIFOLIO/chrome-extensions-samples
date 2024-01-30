@@ -18,7 +18,10 @@
             "content-script.js"
         ]
     }],
-    "permissions" : ["activeTab"],
+    "permissions" : [
+        "sidePanel",
+        "tabs"
+    ],
     "options_page": "option/options.html",
     "side_panel": {
         "default_path": "sidepanel/sidepanel.html"
