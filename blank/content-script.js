@@ -1,0 +1,1 @@
+console.log('You opened https://www.google.com');
